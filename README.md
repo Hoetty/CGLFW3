@@ -1,3 +1,5 @@
+This is a cloned repository of [CGLFW3](https://github.com/SwiftGL/CGLFW3.git)
+
 # Swift C bindings for GLFW v3
 
 [GLFW home page]
@@ -10,7 +12,7 @@ This is a package for the open source Swift. Usage:
 ```swift
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/SwiftGL/CGLFW3.git", majorVersion: 2)
+        .Package(url: "https://github.com/Hoetty/CGLFW3.git", branch: "master")
     ]
 )
 ```
